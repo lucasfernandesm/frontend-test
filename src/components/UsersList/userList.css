@@ -1,0 +1,41 @@
+:root {
+    --BACKGROUND-TABLE: #ffffff;
+    --BACKGROUND-HOVER-TABLE-LINES: #D9D9D9;
+    --BOX-SHADOW: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.custom-table {
+    background: var(--BACKGROUND-TABLE);
+    padding: 2rem;
+    max-width: 70rem;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: var(--BOX-SHADOW);
+}
+
+th {
+    font-size: 1.8rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    width: 15rem;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+.custom-tr {
+    cursor: pointer;
+    
+}
+
+.custom-tr:hover {
+    transform: scale(1.02);
+    background: VAR(--BACKGROUND-HOVER-TABLE-LINES);
+    border-radius: 0.8rem;
+    box-shadow: var(--BOX-SHADOW);
+}
+
+button {
+    background: none;
+    border: none;
+}
